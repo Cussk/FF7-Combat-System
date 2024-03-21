@@ -26,6 +26,15 @@ namespace Data
 
         [Space(10)] 
         public CharacterState characterState;
+
+        [Space(10)] 
+        public CharacterTeam characterTeam;
+    }
+
+    public enum CharacterTeam
+    {
+        Friendly,
+        Enemy
     }
 
     public enum CharacterState
