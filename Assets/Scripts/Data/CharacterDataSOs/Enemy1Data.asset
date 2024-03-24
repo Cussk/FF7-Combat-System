@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 380ff8b997f59694b953daf9057b9e15, type: 3}
-  m_Name: Character1Data
+  m_Name: Enemy1Data
   m_EditorClassIdentifier: 
-  characterName: Cloud
+  characterName: Dummy
   maxHealth: 50
   currentHealth: 50
   maxMana: 20
   currentMana: 20
   maxLimit: 20
   currentLimit: 0
-  maxSpeed: 5
-  currentSpeed: 5
+  maxSpeed: 10
+  currentSpeed: 10
   onAttack:
     m_PersistentCalls:
       m_Calls: []
@@ -29,5 +29,5 @@ MonoBehaviour:
       m_Calls: []
   playerJustAttacked: 0
   characterState: 0
-  characterTeam: 0
-  target: {fileID: 11400000, guid: 45cc4b76fcf380448983fc2b076f6742, type: 2}
+  characterTeam: 1
+  target: {fileID: 11400000, guid: b93f03139a0523c4e8e92198c03affde, type: 2}
